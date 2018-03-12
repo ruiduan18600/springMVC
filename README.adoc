@@ -41,11 +41,13 @@ You’ll create an application that provides the time of day and then build it w
 
 To skip the basics, do the following:
 
-Download and unzip the source repository for this guide, or clone it using Git:
+Maven is downloadable as a zip file at http://maven.apache.org/download.cgi[].
 
-    git clone https://github.com/spring-guides/gs-maven.git
+Only the binaries are required, so look for the link to apache-maven-{version}-bin.zip or apache-maven-{version}-bin.tar.gz.
 
-After install, you can try use command:
+Once you have downloaded the zip file, unzip it to your computer. Then add the bin folder to your path.
+
+To test the Maven installation, run mvn from the command-line:
 
     $mvn -v
 
@@ -58,6 +60,7 @@ If all goes well, you should be presented with some information about the Maven 
     Java home: /Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre
     Default locale: en_US, platform encoding: UTF-8
     OS name: "mac os x", version: "10.8.3", arch: "x86_64", family: "mac"
+
 Congratulations! You now have Maven installed.
 
 
