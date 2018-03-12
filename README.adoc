@@ -1,12 +1,13 @@
 # Java Spring MVC Demo Instruction
-Group: LetterA
+
+*Group: LetterA*
 
 this demo is runs on IntelliJ IDE
 
 
 ## What you'll need for run the demo
 
-### Basic requirment
+### Basic requirements
 
  - IntelliJ IDE
  - JDK 6 or later
@@ -16,7 +17,8 @@ this demo is runs on IntelliJ IDE
 
 SDKMAN! (The Software Development Kit Manager) can be used for managing multiple versions of various binary SDKs,
 including Groovy and the Spring Boot CLI. Get SDKMAN!
-from sdkman.io
+from
+include::https://sdkman.io[]
 
     $curl -s "https://get.sdkman.io" | bash
 
@@ -39,7 +41,9 @@ You’ll create an application that provides the time of day and then build it w
 
 To skip the basics, do the following:
 
-Download and unzip the source repository for this guide, or clone it using Git: git clone https://github.com/spring-guides/gs-maven.git
+Download and unzip the source repository for this guide, or clone it using Git:
+
+    git clone https://github.com/spring-guides/gs-maven.git
 
 After install, you can try use command:
 
@@ -115,6 +119,6 @@ If it is successes, then you can see:
 
 ## Ready to run the demo
 
-By new project from existing source, and open pom.xml file. Import it, and run it with Tomcat.
+By new project from existing source, and open *pom.xml* file. Import it, build with spring and run it with Tomcat.
 
 Finally you can see the "Hello from letter A" from the localhost port, which port number is decide by your setting from Tomcat! :)
