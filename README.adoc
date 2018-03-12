@@ -54,12 +54,12 @@ To test the Maven installation, run mvn from the command-line:
 
 If all goes well, you should be presented with some information about the Maven installation. It will look similar to (although perhaps slightly different from) the following:
 
-    Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 07:51:28-0600)
-    Maven home: /usr/share/maven
-    Java version: 1.7.0_09, vendor: Oracle Corporation
-    Java home: /Library/Java/JavaVirtualMachines/jdk1.7.0_09.jdk/Contents/Home/jre
-    Default locale: en_US, platform encoding: UTF-8
-    OS name: "mac os x", version: "10.8.3", arch: "x86_64", family: "mac"
+    Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T00:58:13-07:00)
+    Maven home: /usr/local/Cellar/maven/3.5.2/libexec
+    Java version: 1.8.0_161, vendor: Oracle Corporation
+    Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+    Default locale: en_CA, platform encoding: UTF-8
+    OS name: "mac os x", version: "10.13.3", arch: "x86_64", family: "mac"
 
 Congratulations! You now have Maven installed.
 
