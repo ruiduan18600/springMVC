@@ -17,8 +17,7 @@ this demo is runs on IntelliJ IDE
 
 SDKMAN! (The Software Development Kit Manager) can be used for managing multiple versions of various binary SDKs,
 including Groovy and the Spring Boot CLI. Get SDKMAN!
-from
-include::https://sdkman.io[]
+from: https://sdkman.io
 
     $curl -s "https://get.sdkman.io" | bash
 
@@ -41,7 +40,7 @@ You’ll create an application that provides the time of day and then build it w
 
 To skip the basics, do the following:
 
-Maven is downloadable as a zip file at http://maven.apache.org/download.cgi[].
+Maven is downloadable as a zip file at http://maven.apache.org/download.cgi.
 
 Only the binaries are required, so look for the link to apache-maven-{version}-bin.zip or apache-maven-{version}-bin.tar.gz.
 
@@ -52,7 +51,7 @@ To test the Maven installation, run mvn from the command-line:
     $mvn -v
 
 
-If all goes well, you should be presented with some information about the Maven installation. It will look similar to (although perhaps slightly different from) the following:
+If systems are setted, your server should be presented with following information about the Maven installation. It will look similar to: (although perhaps slightly different from)
 
     Apache Maven 3.5.2 (138edd61fd100ec658bfa2d307c43b76940a5d7d; 2017-10-18T00:58:13-07:00)
     Maven home: /usr/local/Cellar/maven/3.5.2/libexec
@@ -67,7 +66,7 @@ Congratulations! You now have Maven installed.
 ### Install Tomcat(Java Servlet)
 
 Download apache-tomcat-9.0.5.tar from
-include::http://tomcat.apache.org/[]
+include: http://tomcat.apache.org/
 
     $cd ./apache-tomcat-9.0.5/bin
     $sudo chmod 755 ./*.sh
